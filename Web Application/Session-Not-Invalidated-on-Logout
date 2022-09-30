@@ -1,0 +1,3 @@
+The web application did not invalidate the authenticated session immediately after a logout was conducted.
+This may allow an attacker to gain access to the web application if an attacker is able to obtain the session identifier via any means, such as caching on a shared PC. 
+Any Session references should be invalidated immediately on the server in the event of a logout.

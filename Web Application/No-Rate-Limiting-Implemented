@@ -1,0 +1,4 @@
+No rate limiting mechanism was implimented by the web server.
+This could lead to users abusing the server by making too many requests, which may use up the server’s resources and cause a denial of service.
+This may also be used to gain back copious amounts of information from the server, depending on the returned data.
+A rate-limiting mechanism should be implimented.

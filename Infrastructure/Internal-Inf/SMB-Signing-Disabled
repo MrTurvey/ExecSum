@@ -1,0 +1,3 @@
+The SMB service on the identified systems did not enforce SMB signing.
+SMB signing is a Microsoft Windows feature which allows clients and servers to verify each other’s identity, helping to defeat Man-in-the-Middle attacks.
+SMB signing should be configured via group policy for all machines.

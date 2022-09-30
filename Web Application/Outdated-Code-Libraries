@@ -1,0 +1,3 @@
+Outdated versions of various code libraries were discovered to be used by the web application.
+These versions had known flaws and could be used to exploit users of the web application or the underlying web server.
+All instances of the outdated code should be upgraded to their latest stable versions.

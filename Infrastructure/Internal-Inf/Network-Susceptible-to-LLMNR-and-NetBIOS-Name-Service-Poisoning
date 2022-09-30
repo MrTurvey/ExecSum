@@ -1,0 +1,5 @@
+It was possible to exploit Windows lookup protocols LLMNR and NetBIOS. 
+An attacker can listen and respond to network requests sent by these protocols and to pretend to be a server being queried.
+The victim machine will send credentials in the form of a password hash to authenticate to the spoofed server. 
+An attacker can then crack the given hash using password cracking software and thus gain access to the account.
+The NetBios Name Service and LLMNR should be disabled.

@@ -1,0 +1,3 @@
+The Windows domain was discovered to have a high number of user accounts belonging to the 'Domain Admins' security group.
+This widens the attack surface for one of these many accounts to become compromised and thus, lead to domain compromise.
+All domain membership groups should be reviewed to ensure that users only have access to the associated rights relevant to their business requirements.

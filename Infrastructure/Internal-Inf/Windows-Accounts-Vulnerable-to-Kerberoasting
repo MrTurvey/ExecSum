@@ -1,0 +1,3 @@
+It was possible to extract valid Kerberos tickets that have been created from associating a service with a login account, known as a Windows Service Principal Name (SPN).
+These tickets can then be cracked offline to reveal valid credentials.
+At minimum, a complex 25 character password should be set on all SPN associated accounts, and ideally the more secure Managed Service Accounts (MSA) feature of the newer Windows operating systems should be utilised.

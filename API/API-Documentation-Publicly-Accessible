@@ -1,0 +1,4 @@
+When browsing to the API endpoint, it is possible to view the API documentation without restriction.
+This documentation shows the API requests that can be made to the endpoint, as well as example data.
+Should an attacker view this information, it may allow them to make informed decisions on how to exploit the API.
+The API documentation should be restricted using password protection or taken offline.

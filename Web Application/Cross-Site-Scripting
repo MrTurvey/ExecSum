@@ -1,0 +1,3 @@
+Cross-Site Scripting was identifed on the web application. Using input forms, an attacker could store JavaScript within the web application that would execute on the end-user’s browser.
+This could be used to steal cookies and local data or redirect users to malicious web pages, as well as many other attack scenarios.
+User input should be treated as unsafe and never be trusted. All data sent to the server should be sanitised on input and correctly encoded on output.

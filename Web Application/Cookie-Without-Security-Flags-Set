@@ -1,0 +1,3 @@
+The web application impliments cookies without setting all possible security flags. 
+This could allow the browser to pass the cookie over insecure channels, allow the cookie to be read by an attacker and generally make other attacks more effective.
+All senstive cookies should have the appropriate flags set. These are HttpOnly, Secure and SameSite.

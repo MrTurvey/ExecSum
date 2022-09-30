@@ -1,0 +1,2 @@
+When booting the host, it was discovered that the BIOS did not have a password set and the bootloader could be used to boot into an alternative operating system.
+This may allow the laptop to be used for unintended purposes. A BIOS password should be configured and the bootloader locked.

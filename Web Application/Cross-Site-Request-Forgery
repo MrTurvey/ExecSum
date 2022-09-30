@@ -1,0 +1,3 @@
+The web application was susceptible to Cross Site Request Forgery attacks. 
+This allows requests to be crafted by an attacker and sent to victims to conduct an action the attacker may not be sufficiently privileged to issue.
+CSRF can be mitigated by sending a single-use random value with each HTTP request to enable the server to validate the request came from the legitimate user.

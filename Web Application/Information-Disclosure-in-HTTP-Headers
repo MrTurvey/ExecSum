@@ -1,0 +1,3 @@
+The web server was witnessed to send information about its environment in the HTTP headers sent with each HTTP response from the server.
+This could reveal information about the server and reveal potential vectors for attack.
+The default HTTP headers should be removed to minimise information leakage.

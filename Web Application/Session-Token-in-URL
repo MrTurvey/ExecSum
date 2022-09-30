@@ -1,0 +1,3 @@
+The token used for web authentication was found to be present in a URL. 
+Using tokens within the URL carries a risk that the URL will be acidentally shared or stored by web caches. These could be accessed by attackers and subsequently used, leading to unauthorised account access.
+Authentication tokens should not be passed in URLs and rather, should be passed as an Authorization header or session cookie.

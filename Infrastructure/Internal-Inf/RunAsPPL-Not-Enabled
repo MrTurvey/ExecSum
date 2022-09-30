@@ -1,0 +1,3 @@
+A configuration setting that protects hosts from credential-based attacks was not set. 
+Enabling this setting provides defence-in-depth to protecting domain joined hosts from password dumping attacks.
+This setting can be enabled as part of a GPO registry object.

@@ -1,0 +1,11 @@
+#Lack of Antivirus
+The web application was identified to include a file upload functionality which did not conduct antivirus checks for files being uploaded. 
+This meant that users may upload malicious files to the web application and potentially exploit users with the ability to download these files.
+This may be standard web application users or backend administrators.
+An antivirus solution should be implemented as part of the file upload functionality.
+
+#Lack of Filetype Restriction 
+The web application was identified to include a file upload functionality but did not restrict the type of file that can be uploaded. 
+This meant that users may upload potentially malicious filetypes such as .exe, .bat, .html and more.
+This may be used to exploit users with the ability to download these files or the web application itself.
+Strict upload restrictions should be implimented as part of the file upload functionality. For example, only .PDF or .PNG files.

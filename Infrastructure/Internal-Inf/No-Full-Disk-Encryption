@@ -1,0 +1,3 @@
+The Windows workstation did not use full disk encryption.
+An attacker would be able to boot from external media and gain access to the workstations files.
+Full disk encryption should be used on the workstation to stop an attacker gaining access to the local disk.
