@@ -1,0 +1,3 @@
+Documents served from the web application were found to hold data about the author who created the document.
+This information can be used to further expand the attack surface by tracking down the user via social media platforms leading to phishing attacks.
+Metadata should be stripped from the files before they are presented on the website.

@@ -1,0 +1,4 @@
+The web application makes use of a templating engine to render its user interface. 
+It was possible to inject valid template payloads into application requests and have them reflected back in the reponse.
+This allows a for a form of Cross-Site scripting where template commands can be executed in a user’s session. 
+User input must be validated prior to being processed within the application response.

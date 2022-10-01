@@ -1,0 +1,3 @@
+Mobile applications can use certificate pinning to ensure taht the application is protected against man-in-the-middle attacks when the application is running on a hacked device.
+If the certificate presented by the remote servers do not match the certificate of the application, the application will refuse to make the network connection.
+Certificate pinning should be implimented by the mobile application.

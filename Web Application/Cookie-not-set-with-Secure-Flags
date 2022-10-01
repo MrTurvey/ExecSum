@@ -1,0 +1,4 @@
+Cookies were not set with the 'Secure' flag.
+This flag ensures that a cookie cannot be transmitted over an insecure communications, such as HTTP.
+This prevents Man-in-the-Middle attacks from being successful when trying to capture cookie values.
+The 'Secure' flag should be set where feasible.

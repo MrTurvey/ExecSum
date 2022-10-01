@@ -1,0 +1,3 @@
+Cloud resources often use cloud storage solutions to host files. 
+It was discovered that the cloud storage solution and thus all files, was publicly accessible by browsing to the associated URL.
+Access controls should be modified to ensure that only authorised users and cloud functions are permitted to access these files.

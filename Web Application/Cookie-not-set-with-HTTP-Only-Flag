@@ -1,0 +1,3 @@
+Cookies were not set with the 'HttpOnly' flag.
+This flag prevents JavaScript from reading the cookie values and helps to mitigate session theft.
+The 'HttpOnly' flag should be set where feasible.

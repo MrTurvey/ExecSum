@@ -1,0 +1,3 @@
+An instance of HTTP Basic Authentication was detected, which makes the affected service susceptible to multiple vulnerabilities (such as credential theft and brute forcing) due to being a weak method of authentication.
+
+Other methods of authentication should be implemented instead of Basic Authentication, in addition to enforcing encryption to client connections.

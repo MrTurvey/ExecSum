@@ -1,0 +1,4 @@
+Due to the level of access and control, administrative portals and services are natural targets for attackers. 
+By making them publicly available encorages attacks such as brute force. 
+Administrative interfaces should be restricted to whitelisted IP addresses or limit the availability to internal networks. 
+In addition, where possible, consider implementing two-factor authentication.

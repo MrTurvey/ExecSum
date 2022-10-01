@@ -1,0 +1,4 @@
+The mobile application does not resist attempts to be installed on a jailbroken iOS device or rooted Android device. 
+These devices can allow attackers to subvert process and filesystem protections in order to run applications or access data they normally would not be able.
+This increases the likelihood that attacker's exploits will succeed when targeting the application.
+Jailbreak and Root detection should be implimented into the mobile application. 

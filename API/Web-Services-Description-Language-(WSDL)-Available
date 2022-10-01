@@ -1,0 +1,4 @@
+The remote server disclosed information regarding accessible web services.
+This information greatly increases the attack surface of the API by presenting the functioanlity that can be executed by the service.
+This would allow attackers to understand the API and potentially find ways to abuse it.
+Access should be restricted to the WSDL pages.

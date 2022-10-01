@@ -1,0 +1,3 @@
+The web application did not instruct the browser to use secure communication methods by default.
+The absence of such protection would allow a malicious user to downgrade the lines of communication to a less secure protocol.
+Setting a Strict-Transport-Security HTTP Header will ensure secure data in transit.

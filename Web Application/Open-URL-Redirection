@@ -1,0 +1,4 @@
+A flaw on the web application was discovered whereby it was possible to craft a response to redirect a user to an arbitrary URL.
+This vulnerability could be used to redirect a legitimate user to a malicious site where credentials or data could be stolen.
+All user input should be validated. In this case, URLs that are not expected by the web application should be rejected.
+This can be done using a whitelist approach of valid URLs.

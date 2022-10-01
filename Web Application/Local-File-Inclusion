@@ -1,0 +1,3 @@
+By using specific functionality on the web application, it was noted that underlying operating system file paths were used to request files stored on the web server.
+This configuration can be used to read senstive files stored on the server.
+User input validation checks should be implemented to prevent access to protected files.

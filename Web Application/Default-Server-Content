@@ -1,0 +1,3 @@
+Default pages containing configuration data was being exposed by the web server.
+Information found on these pages could allow an attacker to enumerate key parts of the application and provide attacker with key information.
+Access to the default pages should be denied or the pages should be deleted if not needed.
